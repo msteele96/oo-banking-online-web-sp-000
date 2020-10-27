@@ -14,7 +14,7 @@ class BankAccount
   end
 
   def balance
-    puts @balance
+    @balance
   end
 
   def close_account
