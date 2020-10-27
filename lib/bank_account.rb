@@ -24,6 +24,7 @@ class BankAccount
     else
       return false
     end
+    binding.pry
   end
 
   def close_account
