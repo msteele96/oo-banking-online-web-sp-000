@@ -13,9 +13,9 @@ class BankAccount
     @balance += amount
   end
 
-  # def balance
-  #   @balance
-  # end
+  def display_balance
+    @balance
+  end
 
   def close_account
     @status = "closed"
