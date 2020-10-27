@@ -1,3 +1,4 @@
+require "pry"
 class BankAccount
 
   attr_accessor :status, :balance
@@ -14,6 +15,7 @@ class BankAccount
   end
 
   def display_balance
+    binding.pry
     @balance
   end
 
