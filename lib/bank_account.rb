@@ -16,7 +16,7 @@ class BankAccount
 
   def display_balance
     binding.pry
-    @balance
+    "Your balance is $#{avi.balance}.")
   end
 
   def valid?
